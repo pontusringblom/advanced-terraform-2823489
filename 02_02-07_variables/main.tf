@@ -25,7 +25,7 @@ variable "environment_list" {
 variable "environment_map" {
   type = map(string)
   default = {
-    "DEV" = "DEV",
+    "DEV" = "DEVELOP",
     "QA" = "QA",
     "STAGE" = "STAGE",
     "PROD" = "PROD"
